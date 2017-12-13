@@ -24,7 +24,7 @@ To run this javascript in the site, you have 2 options:
 4.  switch to the 'javascript' tab and c/p the javascript code into it  
 5.  reload the page  
 
-#### To disable temporarily
+## To disable temporarily
 mark the 'document.body.appendChild(s);' line as below:
 ```
 window.onload = function(){
