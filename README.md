@@ -23,3 +23,14 @@ To run this javascript in the site, you have 2 options:
 3.  open the extension by clicking the button right after address bar  
 4.  switch to the 'javascript' tab and c/p the javascript code into it  
 5.  reload the page  
+
+#### To disable temporarily
+mark the 'document.body.appendChild(s);' line as below:
+```
+window.onload = function(){
+  var s = document.createElement('script');
+  s.type = "text/javascript";
+  s.src = "https://skykazuki.github.io/feh/js/game8.js";
+  //document.body.appendChild(s);
+};
+```
